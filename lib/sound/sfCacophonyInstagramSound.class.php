@@ -60,6 +60,7 @@ class sfCacophonyInstagramSound
     $user['normalized']['providers_user_id'] = $userRaw['id'];
     $user['normalized']['username']          = $userRaw['username'];
     $user['normalized']['full_name']         = $userRaw['full_name'];
+    $user['normalized']['profile_picture']   = $userRaw['profile_picture'];
     
     if (isset($userRaw['full_name']) && $userRaw['full_name'] != $userRaw['username'])
     {
